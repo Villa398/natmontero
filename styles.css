@@ -1,0 +1,280 @@
+body{
+  background-color: #d3c4be;
+  font-family:helvetica, tahoma, sans-serif;
+  text-align: center;
+}
+
+/* Headings */
+
+.obra{
+  font-weight: bold;
+}
+
+.productor{
+  font-style: italic;
+}
+
+.papel{
+  text-decoration: underline;
+}
+
+.header-1 {
+  color: #927063;
+  font-weight: bold;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.header-2 {
+  color: #4A6C82;
+  font-weight: bold;
+  text-align: left;
+  padding: 0 20px;
+}
+
+/* Links */
+
+.a1{
+  color: #927063;
+  text-decoration: none;
+}
+
+.a1:hover{
+  color: #55423A;
+  text-decoration: none;
+}
+
+.a2{
+  color: #ffff;
+  text-decoration: none;
+}
+
+.a2:hover{
+  color: #ced4da;
+  text-decoration: none;
+}
+
+/* Divisor */
+
+hr {
+  border: 6px dotted grey;
+  border-bottom: none;
+  width: 4%;
+  margin: 0 auto;
+}
+
+hr:hover {
+  border-color: #927063;
+}
+
+/* Text Format */
+.p-colored-1{
+  color: #9C7B6D;
+}
+
+.p-colored-2{
+  color: #59829B;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-just{
+  text-align: justify;
+}
+
+.top-margin{
+  margin-top: 2rem;
+}
+
+/* Nav Bar */
+
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1rem;
+}
+
+/* Profile */
+
+.profile-img {
+  height: 300px;
+  width: auto;
+  display: block;
+  margin: 40px auto 20px auto;
+  border-radius: 10%
+}
+
+.profile-img:hover{
+  opacity: .9;
+}
+
+.name{
+  font-weight: bold;
+  color: #343a40;
+}
+
+.position {
+  color: #927063;
+  font-weight: bold;
+}
+
+.p1 {
+  font-weight: normal;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 3rem;
+  line-height: 2;
+  font-size: 1.2rem;
+}
+
+/* Shows */
+
+.right-header{
+padding: 0% 0 15%;
+}
+
+.right-column, .left-column{
+margin: auto;
+}
+
+.text-box{
+  padding: 150px 0;
+}
+
+/* Entrenamiento */
+.wb-image{
+  height: 25%;
+  width: auto;
+  margin: 2rem 0 2rem;
+}
+
+.tec-image{
+  height: 25%;
+  width: auto;
+  margin: 2rem 0 2rem;
+  padding: 1.5rem 0 1.5rem;
+}
+
+
+/* Habilidades */
+.icon{
+  color: #ced4da;
+}
+
+.icon-1{
+  color: #ffff;
+}
+
+/* Contact Me */
+
+.btn{
+  margin:10rem 0 2rem 0;
+}
+
+.a-mail{
+  color: #ffff;
+  text-decoration: none;
+}
+
+.a-mail:hover{
+  color: #ffff;
+  text-decoration: none;
+}
+
+/* Bottom */
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+#bottom .icon{
+  padding:0 30px 20px;
+}
+
+/* Sections */
+.colored-section-1{
+  background-color: #B4C8D4;
+}
+
+.section-padding{
+  padding: 2rem 0;
+}
+
+.background-image{
+  width: 100%;
+  height: auto;
+}
+
+.background-image:hover{
+  opacity: 0.9;
+}
+
+
+.col-6{
+  padding: 0;
+}
+
+#entrenamiento{
+  height: 700px;
+}
+
+#contact-me{
+  padding-bottom: 20px;
+}
+
+#bottom{
+  background-color: #343a40;
+  padding: 50px 0 20px 0;
+}
+
+@media (max-width: 500px) {
+
+  .profile-img {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 40px auto 20px auto;
+    border-radius: 10%
+  }
+
+  .name{
+    font-size: 2rem;
+  }
+
+  .position{
+    font-size: 1.5rem;
+  }
+
+  .p1{
+    text-align: justify;
+    font-size: 1 rem;
+    width: 90%;
+    line-height: 1.5;
+  }
+
+  .card-img-top{
+  height: 100px;
+  }
+
+  .card-body{
+    font-size: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .col-6{
+    padding: 0;
+  }
+
+}
